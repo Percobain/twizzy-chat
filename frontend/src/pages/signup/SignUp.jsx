@@ -40,7 +40,7 @@ const SignUp = () => {
             <label className='label p-2'>
               <span className = 'text-indigo-950 text-base label-text'>Full Name</span>
             </label>
-            <input type='text' placeholder='Bojendra Pathak' className="w-full input input-bordered h-10"
+            <input type='text' placeholder='Full Name' className="w-full input input-bordered h-10"
               value={inputs.fullName}
               onChange={(e) => setInputs({...inputs, fullName: e.target.value})}
             />
@@ -50,7 +50,7 @@ const SignUp = () => {
           <label className='label p-2'>
               <span className = 'text-indigo-950 text-base label-text'>Username</span>
             </label>
-            <input type='text' placeholder='bojaschaddi' className="w-full input input-bordered h-10" 
+            <input type='text' placeholder='username' className="w-full input input-bordered h-10" 
               value={inputs.username}
               onChange={(e) => setInputs({...inputs, username: e.target.value})}              
             />
