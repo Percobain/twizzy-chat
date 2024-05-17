@@ -1,6 +1,6 @@
 import './App.css'
 // import Login from './pages/login/Login.jsx'
-import SignUp from './pages/signup/SignUp.jsx'
+// import SignUp from './pages/signup/SignUp.jsx'
 import Home from './pages/home/Home.jsx'
 
 function App() {
@@ -13,6 +13,3 @@ function App() {
 }
 
 export default App
-
-
-// 1:47:38

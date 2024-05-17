@@ -3,8 +3,27 @@
 @tailwind utilities;
 
 body {
-	background: /*linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),*/ url("/bg.gif");
+	background: /*linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),*/ url("/bg4.gif");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+}
+
+/* dark mode looking scrollbar */
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+::-webkit-scrollbar-track {
+	background: #555;
+	border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #363b4e;
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #242424;
 }
