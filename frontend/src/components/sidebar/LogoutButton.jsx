@@ -14,7 +14,7 @@ export default LogoutButton
 
 
 // STARTE CODE for LogoutButton
-import React from 'react'
+// import React from 'react'
 // import {BiLogOut} from 'react-icons/bi'
 
 // const LogoutButton = () => {
