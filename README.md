@@ -1,6 +1,8 @@
 # MERN Stack Project: Build and Deploy a Real Time Chat App | JWT, Socket.io
 
-![Live Now!!](https://www.twizzychat.xyz/)
+![Demo](demo.png)
+
+[Live Now!!](https://www.twizzychat.xyz/)
 
 Some Features:
 
