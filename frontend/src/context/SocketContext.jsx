@@ -16,7 +16,7 @@ export const SocketContextProvider = ({ children }) => {
 
 	useEffect(() => {
 		if (authUser) {
-			const socket = io('https://twizzy-chat.onrender.com/', {
+			const socket = io('https://www.twizzychat.xyz/', {
 				query: {
 					userId: authUser._id,
 				},
